@@ -14,5 +14,5 @@ $('ul').on('click', 'a', function() {
 });
 
 $('#tweets').on('click', 'li', function() {
-	$(this).addclass("read");
+	$(this).addClass("read");
 });
